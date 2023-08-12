@@ -1,5 +1,5 @@
 {% set name = "wsinfer-zoo" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wsinfer_zoo-{{ version }}.tar.gz
-  sha256: f07c1828270ec1642b3f87cffb4482980b2e8bfd6a19b1975d1f8d88f615d046
+  sha256: c4ecd9061c9df07aaecfca3182ee86a367dc4feb4fae13457f8802704ed2ba09
 
 build:
   entry_points:
